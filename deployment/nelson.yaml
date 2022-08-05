@@ -22,7 +22,7 @@ spec:
           # image is publised - while the Nelson Kubernetes integration
           # is a WIP you will need to publish it yourself (presumably in
           # an internal repository that you manage) and point to it here
-          image: registery.service.whatever.com/verizon/nelson:latest
+          image: nginx:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 9000
